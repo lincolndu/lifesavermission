@@ -26,12 +26,6 @@ jQuery(document).ready(function() {
     });
     
     $('.tootlip').tooltip();
-    $("ul#ticker01").liScroll();
+    
 });
-
-wow = new WOW({
-    animateClass: 'animated',
-    offset: 100
-});
-wow.init();
 
