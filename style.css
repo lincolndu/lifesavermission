@@ -1,0 +1,405 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #616975 !important;
+}
+h1, h2, h3, h4, h5, h6, p{
+	line-height: 1.35 !important;
+	color: #616975 !important;
+	font-family: "plantagenet",Georgia !important;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 16px;
+	text-align: justify;
+	padding-right: 20px;
+	margin-bottom: 20px !important;
+}
+
+
+img{
+	width: 100%;
+}
+
+#who, #project, #sponsorship, #medication, #support, #gallery, #video, #news, #volunteer, #contact, #donate{
+	overflow: hidden;
+	height: 100%;
+}
+
+ #sponsorship h2, #medication h2, #support h2{
+	background: #3D6E8F;
+	color: #ccc !important;
+ }
+
+.heading_text{
+	text-transform: uppercase; 
+	text-align:center;
+	background: #0B1C48;
+	cursor: pointer;
+	font-family: Times, serif !important;
+	padding: 50px 0;
+	font-size: 60px;
+	margin: 50px 0;
+}
+
+
+/*Logo design*/
+#logo{
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+}
+
+.logo_area{
+	background: #0B1C48;
+	opacity: .7;
+}
+
+.logo{}
+.logo img{
+	width: 80%;
+	margin: 10px 0;
+
+}
+.logo_name{
+	margin-top: 30px;
+}
+.logo_name h1, .logo_name h3{
+	float: right;
+	margin: 0;
+	padding: 0;
+	color: #fff !important;
+}
+.main_menu{
+	border-top: 1px dashed #aaa;
+	border-bottom: 1px dashed #aaa;
+	opacity: .7;
+	margin-top: 65vh;
+}
+
+.main_menu nav{
+	background: #0B1C48;
+}
+
+.menu_fix{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	margin-top: 0 !important;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: block;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px 0px;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+nav ul li a{
+	color: #fff !important;
+	padding: 20px 15px;
+	border-right: 1px solid;
+	margin-left: -3px;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	background: #3D6E8F;
+	padding: 20px 15px;
+}
+
+.active {
+	background: #3D6E8F;
+	padding: 20px 15px;
+}
+
+
+
+/*Sub menu*/
+nav ul li ul {
+	width: 300px;
+	margin: 21px 0 0 -3px;
+	position: absolute;
+	background: #0B1C48;
+	display: none;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li {
+	float: left;
+	width: 300px;
+	padding: 0;
+	border-bottom: 1px solid;
+}
+nav ul li ul li a {
+	width: 100%;
+	margin: 0;
+	float: left;
+	border-right: none;
+}
+nav ul li ul li:hover, nav ul li ul.active{
+	padding: 0;
+}
+
+
+.sliderImage img{
+	width: 100% !important;
+	height: 850px !important;
+}
+
+/*Who we are part Design*/
+
+
+#about{
+	background: #0B1C48;
+	height: 108vh !important;
+	padding: 150px 0 !important;
+	border-radius: 0 50px 50px 0; 
+}
+#about h1{
+	font-size: 80px;
+	text-align: center;
+}
+#about a:hover{
+	text-decoration: none;
+}
+
+#who_right{
+	float: right;
+}
+
+.who_details{}
+.who_details ol, .who_details ol li{
+	margin-top: 20px;
+}
+.who_details ol li{
+	margin-top: 20px;
+	font-size: 18px !important;
+}
+/*Our project Design*/
+#project{
+	overflow: hidden;
+}
+#project_details{
+	float: left;
+}
+
+#our_project{
+	background: #3D6E8F;
+	height: 80vh;
+	float: right;
+	border-radius: 50px 0 0 50px;
+	padding:100px 0;
+
+}
+#our_project h1{
+	font-size: 70px;
+	text-align: center;
+	color: #ccc !important; 
+}
+
+#project a:hover{text-decoration: none;}
+
+.projects {
+	margin-top: 100px;
+}
+.projects ul {}
+.projects ul li {
+	font-size: 60px;
+	line-height: 100px;
+	font-style: italic;
+}
+.projects ul li a {}
+
+
+/*Sponsorship Project*/
+#sponsorship p, #medication p{
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+#sponsorship{}
+.sponsorship_image img, .medication img{
+	height: 650px;
+	margin-top: 100px;
+	border:1px solid #000;
+	border-radius: 20px;
+}
+
+
+/*Support area design*/
+
+
+.medication_area{}
+.medication_area img{
+	width: 200px;
+	height: 100px;
+	margin-left: 200px;
+}
+
+
+/*Video Design*/
+#video{}
+.video{}
+.video iframe{
+	width: 100%;
+	height: 500px;
+}
+
+/*Gallery Design*/
+#gallery
+#photo{}
+#photo ul{
+	background: #79BBDD;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+#photo ul li{
+	padding: 20px;
+	color: #ccc; 
+	cursor: pointer;
+	font-size: 23px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: -2px;
+}
+#photo ul li:hover, #gallery .current {
+	background: #0B1C48;
+}
+
+
+#gallery img{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border: 1px solid #0B1C48;
+	float: left;
+}
+#gallery .sponsor, #gallery .medic, #gallery .relief{
+	display: none;	
+	border-radius: 20px;
+}
+
+#gallery .all{
+	display: block;
+}
+
+
+
+/*Newsletter*/
+#news{}
+.old_news h4{margin-bottom: 20px;}
+.old_news{text-align: center;}
+.old_news a:hover{
+	text-decoration: none;
+}
+
+.old_news .single {
+	background: #0B1C40 none repeat scroll 0% 0%;
+	border: 1px solid #0B1C48;
+	border-radius: 5px;
+	margin: 0px 0px 10px;
+	padding-top: 18px;
+	float: left;
+	width: 100%;
+}
+
+.old_news .single p{
+	font-size: 16px !important;
+	color: #fff !important;
+	text-align: center;
+}
+
+.new_news{
+	text-align: center;
+}
+
+/*Contact Design*/
+#contact{}
+.member{
+	margin: 50px 0;
+}
+.member h4 {
+	letter-spacing: normal;
+	line-height: 20px;
+	font-size: 18px;
+}
+
+
+.member img{
+	width: 200px;
+	height: 250px;
+	border: 1px solid #0B1C48;
+	padding: 5px;
+}
+
+#contact h2{
+	margin: 30px 0;
+}
+
+form {
+	font-size: 20px !important;
+}
+form input{
+	height: 50px !important;
+	font-size: 20px !important
+}
+
+form button {
+	width: 40%;
+	margin: 20px 0px;
+	background: #0B1C48 none repeat scroll 0% 0% !important;
+	color: #fff !important;
+	font-size: 20px !important;
+	padding: 10px 0 !important;
+	border-radius: 18px !important;
+}
+
+
+#donate{}
+#donate p{}
+#donate h3{
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+
+/*Footer Desing*/
+#footer{
+	background: #0B1C40;
+	padding: 50px 0;
+	margin: 50px 0 0 0;
+}
+#footer p{
+	font-size: 18px;
+	text-align: center;
+	color: #fff !important;
+}
+#footer a{
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+
+#volunteer img, #donate img, #support img {
+	border-radius: 20px;
+	border: 1px solid #000;
+}

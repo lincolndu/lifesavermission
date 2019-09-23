@@ -1,0 +1,321 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 480px) {
+
+    #body{
+    width: 100%;
+  }
+
+  #logo{
+    position: unset;
+  }
+ .logo_area{
+    opacity: 1;
+  }
+
+  .logo {height: 100%;}
+  .logo img{width: 100%;}
+
+  .logo_name { display: none; }
+  .navbar-default .navbar-toggle{
+    background-color: #000;
+  }
+  .main_menu{
+    margin-top: 0;
+    border: none;
+    top: 0;
+    position: fixed;
+    opacity: 1;
+    width: 100%;
+    float: right;
+  }
+  .main_menu button{
+    float: right;
+  }
+
+  .sliderImage img{
+  width: 100% !important;
+  height: 400px !important;
+}
+
+
+  #about{
+    height: 75vh !important;
+    padding: 50px 0 !important;
+    border-radius: 0;
+  }
+  nav ul li{
+    font-size: 16px;
+  }
+  nav ul li ul{
+    display: block;
+  }
+
+  #our_project{
+    height: 50vh;
+    width: 100%;
+    border-radius: 0;
+  }
+  #our_project h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+  #project_details{
+    width: 100%;
+    border-top: 2px solid;
+  }
+  .projects ul li{
+    font-size: 38px;
+  }
+
+  .sponsorship_image img, .medication img{
+    margin: 50px 0;
+  }
+
+  .old_news .single{
+    min-height: 85px;
+  }
+
+  #photo ul li{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .member{
+    margin: 50px 60px;
+  }
+
+  #volunteer img, #donate img, #support img{
+    margin: 50px 0;
+  }
+
+  /*Mobile Version menu*/
+.in{
+  opacity: 1;
+}
+.in ul {
+  width: 100%;
+  margin-top: 50px;
+}
+.in ul li{
+  width: 100%;
+  border-bottom: 1px solid;
+  padding: 0;
+  margin-top: -5px;
+}
+.in ul li a{
+  width: 100%;
+  border: none;
+  float: left;
+}
+.in ul li a:hover, .in ul li .active{
+  width: 100% !important;
+  border: none;
+  float: left;
+}
+.in ul li ul{
+  position: relative;
+}
+
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 481px) and (max-width: 799px) {
+
+    #body{
+    width: 100%;
+  }
+
+    #logo{
+    position: unset;
+  }
+ .logo_area{
+    opacity: 1;
+  }
+
+  .logo {height: 100%;}
+  .logo img{width: 100%;}
+
+  .logo_name { display: none; }
+  .navbar-default .navbar-toggle{
+    background-color: #000;
+  }
+  .main_menu{
+    margin-top: 0;
+    border: none;
+    top: 0;
+    position: fixed;
+    opacity: 1;
+    width: 100%;
+    float: right;
+  }
+  .main_menu button{
+    float: right;
+  }
+
+  .sliderImage img{
+  width: 100% !important;
+  height: 400px !important;
+}
+
+
+  #about{
+    height: 75vh !important;
+    padding: 50px 0 !important;
+    border-radius: 0;
+  }
+  nav ul li{
+    font-size: 16px;
+  }
+  nav ul li ul{
+    display: block;
+  }
+
+  #our_project{
+    height: 50vh;
+    width: 100%;
+    border-radius: 0;
+  }
+  #our_project h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+  #project_details{
+    width: 100%;
+    border-top: 2px solid;
+  }
+  .projects ul li{
+    font-size: 38px;
+  }
+
+  .sponsorship_image img, .medication img{
+    margin: 50px 0;
+  }
+
+  .old_news .single{
+    min-height: 85px;
+  }
+
+  #photo ul li{
+    padding: 10px;
+  }
+  .member{
+    margin: 50px 120px;
+  }
+
+  #volunteer img, #donate img, #support img{
+    margin: 50px 0;
+  }
+
+  /*Mobile Version menu*/
+.in{
+  opacity: 1;
+}
+.in ul {
+  width: 100%;
+  margin-top: 50px;
+}
+.in ul li{
+  width: 100%;
+  border-bottom: 1px solid;
+  padding: 0;
+  margin-top: -5px;
+}
+.in ul li a{
+  width: 100%;
+  border: none;
+  float: left;
+}
+.in ul li a:hover, .in ul li .active{
+  width: 100% !important;
+  border: none;
+  float: left;
+}
+.in ul li ul{
+  position: relative;
+}
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  
+
+    #body{
+    width: 100%;
+  }
+
+  .logo_name h1{
+    font-size: 30px;
+  }
+  .main_menu{
+    margin-top: 500px;
+  }
+  #about{
+    height: 65vh !important;
+  }
+  nav ul li{
+    font-size: 16px;
+  }
+
+  #our_project{
+    height: 40vh;
+  }
+  #our_project h1{
+    font-size: 60px;
+  }
+  .projects ul li{
+    font-size: 38px;
+  }
+
+  .sponsorship_image img, .medication img{
+    margin: 50px 0;
+  }
+
+  .old_news .single{
+    min-height: 85px;
+  }
+  #volunteer img, #donate img, #support img{
+    margin: 50px 0;
+  }
+
+
+
+
+}/* Computer Layout: 980px. */
+@media only screen and (min-width: 980px) and (max-width: 1279px) {
+  #body{
+    width: 100%;
+  }
+  .main_menu{
+    margin-top: 500px;
+  }
+  #about{
+    height: 65vh !important;
+  }
+  nav ul li{
+    font-size: 18px;
+  }
+
+  #our_project{
+    height: 40vh;
+  }
+  #our_project h1{
+    font-size: 60px;
+  }
+  .projects ul li{
+    font-size: 48px;
+  }
+
+  .old_news .single{
+    min-height: 85px;
+  }
+
+
+}
